@@ -12,7 +12,7 @@ class MovieBot(ChatBot):
     def __init__(self):
         # Encapsulation: private dictionary of movie lists (info loaded on the bot to generate response)
         self.__movie_data = {
-            "action": ["Mad Max: Fury Road", "John Wick", "Die Hard"],
+            "action": ["Mad Max: Fury Road", "Survivor", "Die Hard"],
             "comedy": ["Superbad", "Step Brothers", "The Hangover"],
             "drama": ["Forrest Gump", "The Shawshank Redemption", "The Pursuit of Happyness"],
             "romance": ["The Notebook", "Pride & Prejudice", "La La Land"]
